@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+       <div class="header-container">
+        <img src="./!mages/logo plant.svg" class="logo-img" alt="">
+        <div class="search-box">
+            <input type="text" placeholder="What are you looking for?">
+            <button class="search-btn">
+                <img src="./!mages/charm_search.svg" alt="">
+            </button>
+        </div>
+        <button class="login-btn">LOG IN</button>
+        <button class="cart-btn">
+            <img src="./!mages/fluent_cart-16-filled.svg" alt="">
+        </button>
+       </div> 
+    </header>
+
+    <div class="mobile-header">
+        <div class="mobile-header-container">
+            <img src="./!mages/logo plant.svg" class="logo-img" alt="">        
+                <button class="mobile-search-btn">
+                    <img src="./!mages/charm_search.svg" alt="">
+                </button>
+            
+            <button class="tablet-login-btn">LOG IN</button>
+            <button class="mobile-login-btn">
+                <img src="./!mages/gridicons_user.svg" alt="">
+            </button>
+            <button class="mobile-cart-btn">
+                <img src="./!mages/fluent_cart-16-filled.svg" alt="">
+            </button>
+           </div> 
+    </div>
+    <main>
+        <form class="form-container">
+            <h2>CONTACT US</h2>
+           <div class="personal-info">
+            <input type="text" placeholder="Name" class="namez">
+            <input type="email" placeholder="Email" class="emailz">
+           </div>
+
+           <div class="ordersomething">
+            <p>I have a delivery question about my order</p>
+  <div style="display: flex; padding-bottom: 8px;">          
+  <input type="radio" id="recieveorder" name="order" value="HTML">
+  <label for="recieveorder">I did not receive my order</label>
+</div>  
+
+<div style="display: flex; padding-bottom: 8px;">
+<input type="radio" id="orderincorrect" name="order" value="CSS">
+  <label for="orderincorrect">My order is incorrect or arrived damaged</label>\
+</div>
+
+<div style="display: flex; padding-bottom: 8px;">
+  <input type="radio" id="cancelorder" name="order" value="JavaScript">
+  <label for="cancelorder">Cancel my order</label>
+</div>
+
+<div style="display: flex; padding-bottom: 8px;">
+<input type="radio" id="shippingaddress" name="order" value="JavaScript">
+  <label for="shippingaddress">Change my shipping address</label>
+</div>
+           </div>
+
+           <div class="detailinfo">
+            <p>Please provide more details below.</p>
+            <textarea name="" placeholder="Message"></textarea>
+           </div>
+
+           <div class="subscribe">
+            <input type="checkbox" id="newsletter">
+            <label for="newsletter">I want to receive the newsletter </label>
+           </div>
+
+           <button type="submit" id="send-btn">SEND</button>
+        </form>
+    </main>
+</body>
+</html>
